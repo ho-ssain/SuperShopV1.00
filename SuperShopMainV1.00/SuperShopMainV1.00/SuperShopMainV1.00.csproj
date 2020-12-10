@@ -44,6 +44,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AdminDashboard.Designer.cs">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ClubCustomerDashborad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClubCustomerDashborad.Designer.cs">
+      <DependentUpon>ClubCustomerDashborad.cs</DependentUpon>
+    </Compile>
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -58,6 +70,12 @@
     <Compile Include="SalesmanDashboar.Designer.cs">
       <DependentUpon>SalesmanDashboar.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="AdminDashboard.resx">
+      <DependentUpon>AdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClubCustomerDashborad.resx">
+      <DependentUpon>ClubCustomerDashborad.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>

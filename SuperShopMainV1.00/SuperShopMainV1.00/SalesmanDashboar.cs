@@ -26,5 +26,16 @@ namespace SuperShopMainV1._00
         {
 
         }
+
+        private void Membershipdropdown_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AmountLabel_Click(object sender, EventArgs e)
+        {
+
+        }
+
     }
 }
