@@ -35,6 +35,12 @@
             this.SalesButton = new System.Windows.Forms.Button();
             this.dashboardpicbox = new System.Windows.Forms.PictureBox();
             this.CustomerDashboarplanel1 = new System.Windows.Forms.Panel();
+            this.RemoveBtn = new System.Windows.Forms.Button();
+            this.addedbutton = new System.Windows.Forms.Button();
+            this.AmountLabel = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.CustomerEmailLabel = new System.Windows.Forms.Label();
+            this.CustomerEmailTextbox = new System.Windows.Forms.TextBox();
             this.memberdropdown = new System.Windows.Forms.ComboBox();
             this.Membershipdropdown = new System.Windows.Forms.Label();
             this.QtyLabel = new System.Windows.Forms.Label();
@@ -47,12 +53,6 @@
             this.CustomrNameSalesDashboar = new System.Windows.Forms.Label();
             this.SalesData = new System.Windows.Forms.DateTimePicker();
             this.CustomerNameTextboxSales = new System.Windows.Forms.TextBox();
-            this.CustomerEmailLabel = new System.Windows.Forms.Label();
-            this.CustomerEmailTextbox = new System.Windows.Forms.TextBox();
-            this.AmountLabel = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.addedbutton = new System.Windows.Forms.Button();
-            this.RemoveBtn = new System.Windows.Forms.Button();
             this.SalesDashboardPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dashboardpicbox)).BeginInit();
             this.CustomerDashboarplanel1.SuspendLayout();
@@ -84,6 +84,7 @@
             this.logoutbutton.TabIndex = 2;
             this.logoutbutton.Text = "Logout";
             this.logoutbutton.UseVisualStyleBackColor = true;
+            this.logoutbutton.Click += new System.EventHandler(this.logoutbutton_Click);
             // 
             // Addcutomerbutton
             // 
@@ -98,6 +99,7 @@
             this.Addcutomerbutton.TabIndex = 1;
             this.Addcutomerbutton.Text = "Add Club Member";
             this.Addcutomerbutton.UseVisualStyleBackColor = true;
+            this.Addcutomerbutton.Click += new System.EventHandler(this.Addcutomerbutton_Click);
             // 
             // SalesButton
             // 
@@ -112,6 +114,7 @@
             this.SalesButton.TabIndex = 0;
             this.SalesButton.Text = "Sale Products";
             this.SalesButton.UseVisualStyleBackColor = true;
+            this.SalesButton.Click += new System.EventHandler(this.SalesButton_Click);
             // 
             // dashboardpicbox
             // 
@@ -153,6 +156,71 @@
             this.CustomerDashboarplanel1.Name = "CustomerDashboarplanel1";
             this.CustomerDashboarplanel1.Size = new System.Drawing.Size(657, 168);
             this.CustomerDashboarplanel1.TabIndex = 2;
+            // 
+            // RemoveBtn
+            // 
+            this.RemoveBtn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.RemoveBtn.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.RemoveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.RemoveBtn.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RemoveBtn.ForeColor = System.Drawing.Color.Black;
+            this.RemoveBtn.Location = new System.Drawing.Point(359, 138);
+            this.RemoveBtn.Name = "RemoveBtn";
+            this.RemoveBtn.Size = new System.Drawing.Size(75, 23);
+            this.RemoveBtn.TabIndex = 18;
+            this.RemoveBtn.Text = "Remove";
+            this.RemoveBtn.UseVisualStyleBackColor = false;
+            // 
+            // addedbutton
+            // 
+            this.addedbutton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.addedbutton.BackColor = System.Drawing.Color.PaleTurquoise;
+            this.addedbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.addedbutton.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.addedbutton.ForeColor = System.Drawing.Color.Black;
+            this.addedbutton.Location = new System.Drawing.Point(269, 138);
+            this.addedbutton.Name = "addedbutton";
+            this.addedbutton.Size = new System.Drawing.Size(75, 23);
+            this.addedbutton.TabIndex = 17;
+            this.addedbutton.Text = "ADD";
+            this.addedbutton.UseVisualStyleBackColor = false;
+            // 
+            // AmountLabel
+            // 
+            this.AmountLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.AmountLabel.AutoSize = true;
+            this.AmountLabel.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AmountLabel.Location = new System.Drawing.Point(462, 118);
+            this.AmountLabel.Name = "AmountLabel";
+            this.AmountLabel.Size = new System.Drawing.Size(59, 15);
+            this.AmountLabel.TabIndex = 16;
+            this.AmountLabel.Text = "Amount:";
+            this.AmountLabel.Click += new System.EventHandler(this.AmountLabel_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox2.Location = new System.Drawing.Point(526, 113);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(121, 20);
+            this.textBox2.TabIndex = 15;
+            // 
+            // CustomerEmailLabel
+            // 
+            this.CustomerEmailLabel.AutoSize = true;
+            this.CustomerEmailLabel.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CustomerEmailLabel.Location = new System.Drawing.Point(11, 78);
+            this.CustomerEmailLabel.Name = "CustomerEmailLabel";
+            this.CustomerEmailLabel.Size = new System.Drawing.Size(41, 15);
+            this.CustomerEmailLabel.TabIndex = 14;
+            this.CustomerEmailLabel.Text = "Email:";
+            // 
+            // CustomerEmailTextbox
+            // 
+            this.CustomerEmailTextbox.Location = new System.Drawing.Point(123, 76);
+            this.CustomerEmailTextbox.Name = "CustomerEmailTextbox";
+            this.CustomerEmailTextbox.Size = new System.Drawing.Size(274, 20);
+            this.CustomerEmailTextbox.TabIndex = 13;
             // 
             // memberdropdown
             // 
@@ -274,71 +342,6 @@
             this.CustomerNameTextboxSales.Size = new System.Drawing.Size(274, 20);
             this.CustomerNameTextboxSales.TabIndex = 0;
             // 
-            // CustomerEmailLabel
-            // 
-            this.CustomerEmailLabel.AutoSize = true;
-            this.CustomerEmailLabel.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CustomerEmailLabel.Location = new System.Drawing.Point(11, 78);
-            this.CustomerEmailLabel.Name = "CustomerEmailLabel";
-            this.CustomerEmailLabel.Size = new System.Drawing.Size(41, 15);
-            this.CustomerEmailLabel.TabIndex = 14;
-            this.CustomerEmailLabel.Text = "Email:";
-            // 
-            // CustomerEmailTextbox
-            // 
-            this.CustomerEmailTextbox.Location = new System.Drawing.Point(123, 76);
-            this.CustomerEmailTextbox.Name = "CustomerEmailTextbox";
-            this.CustomerEmailTextbox.Size = new System.Drawing.Size(274, 20);
-            this.CustomerEmailTextbox.TabIndex = 13;
-            // 
-            // AmountLabel
-            // 
-            this.AmountLabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.AmountLabel.AutoSize = true;
-            this.AmountLabel.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AmountLabel.Location = new System.Drawing.Point(462, 118);
-            this.AmountLabel.Name = "AmountLabel";
-            this.AmountLabel.Size = new System.Drawing.Size(59, 15);
-            this.AmountLabel.TabIndex = 16;
-            this.AmountLabel.Text = "Amount:";
-            this.AmountLabel.Click += new System.EventHandler(this.AmountLabel_Click);
-            // 
-            // textBox2
-            // 
-            this.textBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox2.Location = new System.Drawing.Point(526, 113);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(121, 20);
-            this.textBox2.TabIndex = 15;
-            // 
-            // addedbutton
-            // 
-            this.addedbutton.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.addedbutton.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.addedbutton.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.addedbutton.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.addedbutton.ForeColor = System.Drawing.Color.Black;
-            this.addedbutton.Location = new System.Drawing.Point(269, 138);
-            this.addedbutton.Name = "addedbutton";
-            this.addedbutton.Size = new System.Drawing.Size(75, 23);
-            this.addedbutton.TabIndex = 17;
-            this.addedbutton.Text = "ADD";
-            this.addedbutton.UseVisualStyleBackColor = false;
-            // 
-            // RemoveBtn
-            // 
-            this.RemoveBtn.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.RemoveBtn.BackColor = System.Drawing.Color.PaleTurquoise;
-            this.RemoveBtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.RemoveBtn.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RemoveBtn.ForeColor = System.Drawing.Color.Black;
-            this.RemoveBtn.Location = new System.Drawing.Point(359, 138);
-            this.RemoveBtn.Name = "RemoveBtn";
-            this.RemoveBtn.Size = new System.Drawing.Size(75, 23);
-            this.RemoveBtn.TabIndex = 18;
-            this.RemoveBtn.Text = "Remove";
-            this.RemoveBtn.UseVisualStyleBackColor = false;
-            // 
             // SalesmanDashboar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -351,7 +354,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MinimumSize = new System.Drawing.Size(868, 736);
             this.Name = "SalesmanDashboar";
-            this.Text = "SalesmanDashboar";
+            this.Text = "Salesman Dashboar";
             this.Load += new System.EventHandler(this.SalesmanDashboar_Load);
             this.SalesDashboardPanel.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dashboardpicbox)).EndInit();
