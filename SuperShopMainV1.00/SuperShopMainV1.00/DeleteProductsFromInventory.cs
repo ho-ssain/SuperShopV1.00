@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace SuperShopMainV1._00
 {
-    public partial class AdminDashboard : Form
+    public partial class DeleteProductsFromInventory : Form
     {
-        public AdminDashboard()
+        public DeleteProductsFromInventory()
         {
             InitializeComponent();
-        }
-
-        private void Phone_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Inventory_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -37,5 +37,24 @@ namespace SuperShopMainV1._00
 
         }
 
+        private void logoutbutton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login login = new Login();
+            login.Show();
+        }
+
+        private void Addcutomerbutton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            ClubCustomerDashborad cclb = new ClubCustomerDashborad();
+            cclb.Show();
+        }
+
+        private void SalesButton_Click(object sender, EventArgs e)
+        {
+            this.Show();
+        }
+
     }
 }
