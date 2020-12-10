@@ -42,7 +42,10 @@
             // 
             // Login_PictureBox
             // 
+            this.Login_PictureBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Login_PictureBox.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.Login_PictureBox.Cursor = System.Windows.Forms.Cursors.Default;
             this.Login_PictureBox.Image = ((System.Drawing.Image)(resources.GetObject("Login_PictureBox.Image")));
             this.Login_PictureBox.Location = new System.Drawing.Point(148, 12);
             this.Login_PictureBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -53,7 +56,10 @@
             // 
             // SelectRole
             // 
+            this.SelectRole.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.SelectRole.AutoSize = true;
+            this.SelectRole.Cursor = System.Windows.Forms.Cursors.Default;
             this.SelectRole.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.SelectRole.Location = new System.Drawing.Point(148, 161);
             this.SelectRole.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -64,7 +70,10 @@
             // 
             // UserID
             // 
+            this.UserID.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.UserID.AutoSize = true;
+            this.UserID.Cursor = System.Windows.Forms.Cursors.Default;
             this.UserID.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.UserID.Location = new System.Drawing.Point(148, 196);
             this.UserID.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -75,6 +84,9 @@
             // 
             // UserID_textBox
             // 
+            this.UserID_textBox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.UserID_textBox.Cursor = System.Windows.Forms.Cursors.Default;
             this.UserID_textBox.Location = new System.Drawing.Point(238, 194);
             this.UserID_textBox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.UserID_textBox.Name = "UserID_textBox";
@@ -83,7 +95,10 @@
             // 
             // Password
             // 
+            this.Password.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Password.AutoSize = true;
+            this.Password.Cursor = System.Windows.Forms.Cursors.Default;
             this.Password.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Password.Location = new System.Drawing.Point(148, 230);
             this.Password.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
@@ -94,6 +109,9 @@
             // 
             // passwrodbox
             // 
+            this.passwrodbox.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.passwrodbox.Cursor = System.Windows.Forms.Cursors.Default;
             this.passwrodbox.Location = new System.Drawing.Point(238, 230);
             this.passwrodbox.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.passwrodbox.Name = "passwrodbox";
@@ -103,7 +121,10 @@
             // 
             // Loginbutton
             // 
+            this.Loginbutton.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.Loginbutton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.Loginbutton.Cursor = System.Windows.Forms.Cursors.Default;
             this.Loginbutton.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Loginbutton.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.Loginbutton.Location = new System.Drawing.Point(294, 279);
@@ -116,6 +137,9 @@
             // 
             // RoleSelect
             // 
+            this.RoleSelect.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.RoleSelect.Cursor = System.Windows.Forms.Cursors.Default;
             this.RoleSelect.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.RoleSelect.FormattingEnabled = true;
             this.RoleSelect.Items.AddRange(new object[] {
@@ -144,7 +168,10 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(688, 368);
+            this.MinimumSize = new System.Drawing.Size(688, 368);
             this.Name = "Login";
+            this.SizeGripStyle = System.Windows.Forms.SizeGripStyle.Hide;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.Login_PictureBox)).EndInit();

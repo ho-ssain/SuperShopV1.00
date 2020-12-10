@@ -145,7 +145,7 @@
             this.ClubCustomerDashboarplanel1.Controls.Add(this.CustomerNameTextboxSales);
             this.ClubCustomerDashboarplanel1.Location = new System.Drawing.Point(183, 136);
             this.ClubCustomerDashboarplanel1.Name = "ClubCustomerDashboarplanel1";
-            this.ClubCustomerDashboarplanel1.Size = new System.Drawing.Size(657, 168);
+            this.ClubCustomerDashboarplanel1.Size = new System.Drawing.Size(673, 168);
             this.ClubCustomerDashboarplanel1.TabIndex = 5;
             // 
             // Removeinventorybtn
@@ -155,7 +155,7 @@
             this.Removeinventorybtn.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Removeinventorybtn.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Removeinventorybtn.ForeColor = System.Drawing.Color.Black;
-            this.Removeinventorybtn.Location = new System.Drawing.Point(482, 117);
+            this.Removeinventorybtn.Location = new System.Drawing.Point(498, 117);
             this.Removeinventorybtn.Name = "Removeinventorybtn";
             this.Removeinventorybtn.Size = new System.Drawing.Size(165, 38);
             this.Removeinventorybtn.TabIndex = 18;
@@ -167,7 +167,7 @@
             this.datelabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.datelabel.AutoSize = true;
             this.datelabel.Font = new System.Drawing.Font("Microsoft JhengHei UI", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.datelabel.Location = new System.Drawing.Point(481, 24);
+            this.datelabel.Location = new System.Drawing.Point(497, 24);
             this.datelabel.Name = "datelabel";
             this.datelabel.Size = new System.Drawing.Size(40, 17);
             this.datelabel.TabIndex = 7;
@@ -210,7 +210,7 @@
             // 
             this.SalesData.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.SalesData.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.SalesData.Location = new System.Drawing.Point(526, 21);
+            this.SalesData.Location = new System.Drawing.Point(542, 21);
             this.SalesData.Name = "SalesData";
             this.SalesData.Size = new System.Drawing.Size(121, 21);
             this.SalesData.TabIndex = 1;
