@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace SuperShopMainV1._00
 {
-    public partial class Form1 : Form
+    public partial class SalesmanDashboar : Form
     {
-        public Form1()
+        public SalesmanDashboar()
         {
             InitializeComponent();
+        }
+
+        private void SalesmanDashboar_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Dashboradpanel_Paint(object sender, PaintEventArgs e)
+        {
+
         }
     }
 }
