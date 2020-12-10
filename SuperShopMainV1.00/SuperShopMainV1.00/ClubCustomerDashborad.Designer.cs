@@ -47,9 +47,11 @@
             this.CustomrNameSalesDashboar = new System.Windows.Forms.Label();
             this.SalesData = new System.Windows.Forms.DateTimePicker();
             this.CustomerNameTextboxSales = new System.Windows.Forms.TextBox();
+            this.clubcustomerdatagrid = new System.Windows.Forms.DataGridView();
             this.ClubDashboardPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.clubdashboardpicbox)).BeginInit();
             this.ClubCustomerDashboarplanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.clubcustomerdatagrid)).BeginInit();
             this.SuspendLayout();
             // 
             // ClubDashboardPanel
@@ -277,12 +279,23 @@
             this.CustomerNameTextboxSales.Size = new System.Drawing.Size(274, 20);
             this.CustomerNameTextboxSales.TabIndex = 0;
             // 
+            // clubcustomerdatagrid
+            // 
+            this.clubcustomerdatagrid.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.clubcustomerdatagrid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.clubcustomerdatagrid.Location = new System.Drawing.Point(183, 296);
+            this.clubcustomerdatagrid.Name = "clubcustomerdatagrid";
+            this.clubcustomerdatagrid.Size = new System.Drawing.Size(656, 365);
+            this.clubcustomerdatagrid.TabIndex = 4;
+            // 
             // ClubCustomerDashborad
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::SuperShopMainV1._00.Properties.Resources.background1;
             this.ClientSize = new System.Drawing.Size(852, 697);
+            this.Controls.Add(this.clubcustomerdatagrid);
             this.Controls.Add(this.ClubCustomerDashboarplanel1);
             this.Controls.Add(this.clubdashboardpicbox);
             this.Controls.Add(this.ClubDashboardPanel);
@@ -294,6 +307,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.clubdashboardpicbox)).EndInit();
             this.ClubCustomerDashboarplanel1.ResumeLayout(false);
             this.ClubCustomerDashboarplanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.clubcustomerdatagrid)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -318,5 +332,6 @@
         private System.Windows.Forms.TextBox CustomerNameTextboxSales;
         private System.Windows.Forms.Label Address;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.DataGridView clubcustomerdatagrid;
     }
 }
